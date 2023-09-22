@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.img_cabecalho {
+    height: 72px; /*Altura*/
+}
+
+.links {
+    display: flex;
+    gap: 33px;
+}
+
+.menu_inicio:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.menu_inicio {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo_principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.escrita_principal_titulos {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.escrita_principal_titulos {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color: #FFF2E7;
+    font-size: 64px;
+}
+
+.escrita_principal_subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 200;
+    font-size: 27px;
+    color: #ECD6C4;
+}
+
+.escrita_principal_escrito {
+    background-color: #ECD6C4;
+    width: 144px;
+    height: 41px;
+    border: none; /*Sem borda*/
+    gap: 48px;
+    color:#2F2325 ;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25); /*Sombra no botão*/
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.escrita_principal_escrito:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo_principal_imagem {
+    height: 400px;
+}
+
+.conteudo_secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.escrita_secundaria_titulos {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    margin-bottom: 16px;
+    display: flex;
+    text-align: center;
+    color: #FFF2E7;
+    font-family: 'Righteous', cursive;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.escrita_secundaria_paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    align-items: center;
+    color: #ECD6C4;
+}
+
+
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+
+}
+
+.img_rodape {
+    height: 48px; /*Largura*/
+    display: block; /*Servem para centralizar um unico elemento quando temos na tela*/
+    margin: 0% auto; 
+
+
+}
